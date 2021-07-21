@@ -57,7 +57,7 @@ services:
       RABBITMQ_DEFAULT_USER: ndxbn
       RABBITMQ_DEFAULT_PASS: secretKey
   elasticsearch:
-    image: "elasticsearch:7.13.3"
+    image: "elasticsearch:7.13.4"
     restart: always
     ports:
       - 9200:9200
