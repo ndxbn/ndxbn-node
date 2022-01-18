@@ -1,11 +1,14 @@
 {
   "extends": [
     "config:js-lib",
+    ":disableDependencyDashboard",
     ":automergeMinor",
     ":rebaseStalePrs",
     ":respectLatest",
     ":prHourlyLimitNone",
+    ":prConcurrentLimitNone",
     "group:linters",
+    "group:allNonMajor",
     "preview:dockerVersions",
     "preview:dockerCompose"
   ],
