@@ -29,7 +29,7 @@
     "format": "prettier -u --write \"**/**\""
   },
   "devDependencies": {
-    "@commitlint/cli": "16.0.3",
+    "@commitlint/cli": "16.1.0",
     "@commitlint/config-conventional": "16.0.0",
     "@commitlint/config-lerna-scopes": "16.0.0",
     "@ndxbn/preset-jest": "file:packages/@ndxbn/preset-jest",
