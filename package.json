@@ -29,9 +29,9 @@
     "format": "prettier -u --write \"**/**\""
   },
   "devDependencies": {
-    "@commitlint/cli": "16.3.0",
-    "@commitlint/config-conventional": "16.2.4",
-    "@commitlint/config-lerna-scopes": "16.2.4",
+    "@commitlint/cli": "17.0.0",
+    "@commitlint/config-conventional": "17.0.0",
+    "@commitlint/config-lerna-scopes": "17.0.0",
     "@ndxbn/preset-jest": "file:packages/@ndxbn/preset-jest",
     "@ndxbn/preset-typescript": "file:packages/@ndxbn/preset-typescript",
     "@types/config": "0.0.41",
