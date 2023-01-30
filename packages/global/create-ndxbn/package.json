@@ -15,7 +15,7 @@
     "@ndxbn/preset-typescript": "0.0.12",
     "@types/mustache": "4.2.2",
     "@types/node": "18.11.18",
-    "typescript": "4.9.4"
+    "typescript": "4.9.5"
   },
   "keywords": [],
   "license": "MIT",
