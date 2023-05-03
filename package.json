@@ -31,7 +31,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.1",
     "@commitlint/config-conventional": "17.6.1",
-    "@commitlint/config-lerna-scopes": "17.4.2",
+    "@commitlint/config-lerna-scopes": "17.6.2",
     "@ndxbn/preset-jest": "file:packages/@ndxbn/preset-jest",
     "@ndxbn/preset-typescript": "file:packages/@ndxbn/preset-typescript",
     "@types/config": "3.3.0",
