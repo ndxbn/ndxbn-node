@@ -1,5 +1,10 @@
 name: A workflow for Node.js CI
-on: push
+
+on:
+  push:
+    branches: [ "main", "development" ]
+  pull_request:
+    branches: [ "main", "development" ]
 
 jobs:
   build:
