@@ -1,4 +1,4 @@
-name: A workflow for Node.js CI
+name: Node.js Build and Test
 
 on:
   push:
@@ -8,10 +8,17 @@ on:
 
 jobs:
   build:
-    name: Node.js test
+    name: npm cit
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ["latest"]
+
     steps:
       - uses: actions/checkout@master
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.7.0
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
       - run: npm cit
