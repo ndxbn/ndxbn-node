@@ -10,8 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3.7.0
-      - run: npm ci
+        uses: actions/setup-node@v3
+      - run: npm cit
 
   publish-npm:
     needs: build
@@ -25,18 +25,4 @@ jobs:
       - run: npm ci
       - run: npm run release
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.7.0
-        with:
-          registry-url: https://npm.pkg.github.com/
-          scope: "@ndxbn"
-      - run: npm ci
-      - run: npm run release
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
