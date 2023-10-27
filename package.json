@@ -34,7 +34,7 @@
     "@commitlint/config-lerna-scopes": "18.1.0",
     "@ndxbn/preset-jest": "file:packages/@ndxbn/preset-jest",
     "@ndxbn/preset-typescript": "file:packages/@ndxbn/preset-typescript",
-    "@types/config": "3.3.1",
+    "@types/config": "3.3.2",
     "@types/jest": "26.0.24",
     "config": "3.3.9",
     "husky": "8.0.3",
@@ -45,7 +45,7 @@
     "ts-jest": "26.5.6",
     "ts-node": "10.9.1",
     "typescript": "5.2.2",
-    "winston": "3.10.0"
+    "winston": "3.11.0"
   },
   "jest": {
     "preset": "@ndxbn/preset-jest",
