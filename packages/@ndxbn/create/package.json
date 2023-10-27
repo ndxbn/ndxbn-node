@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@ndxbn/preset-jest": "0.2.4",
-    "@ndxbn/preset-typescript": "0.0.12",
+    "@ndxbn/tsc": "0.0.12",
     "@types/mustache": "4.2.4",
     "@types/node": "20.8.9",
     "typescript": "5.2.2"

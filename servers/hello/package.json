@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@ndxbn/preset-jest": "0.2.4",
-    "@ndxbn/preset-typescript": "0.0.12",
+    "@ndxbn/tsc": "0.0.12",
     "@types/express": "4.17.20",
     "@types/jest": "26.0.24",
     "@types/node": "20.8.9",

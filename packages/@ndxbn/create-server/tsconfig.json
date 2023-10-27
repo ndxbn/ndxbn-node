@@ -1,5 +1,5 @@
 {
-  "extends": "@ndxbn/preset-typescript",
+  "extends": "@ndxbn/tsc",
   "compilerOptions": {
     "outDir": "./lib"
   },

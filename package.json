@@ -33,7 +33,7 @@
     "@commitlint/config-conventional": "18.1.0",
     "@commitlint/config-lerna-scopes": "18.1.0",
     "@ndxbn/preset-jest": "file:packages/@ndxbn/preset-jest",
-    "@ndxbn/preset-typescript": "file:packages/@ndxbn/preset-typescript",
+    "@ndxbn/tsc": "file:packages/@ndxbn/tsc",
     "@types/config": "3.3.2",
     "@types/jest": "26.0.24",
     "config": "3.3.9",
