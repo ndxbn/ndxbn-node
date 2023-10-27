@@ -9,7 +9,7 @@
     "test": "node --version"
   },
   "dependencies": {
-    "mustache": "^4.0.0"
+    "mustache": "^4.2.0"
   },
   "devDependencies": {
     "@ndxbn/tsc": "0.0.12",

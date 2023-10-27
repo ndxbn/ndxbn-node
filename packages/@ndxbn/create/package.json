@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "mustache": "^4.0.0"
+    "mustache": "^4.2.0"
   },
   "devDependencies": {
     "@ndxbn/preset-jest": "0.2.4",
