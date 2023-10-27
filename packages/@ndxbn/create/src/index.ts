@@ -63,7 +63,7 @@ export default class Application {
     //
     const templateFilePath = path.resolve(
       this.templateDirectory,
-      templatePath + ".mustache"
+      templatePath
     );
     const output = mustache.render(
       fs.readFileSync(templateFilePath).toString(),

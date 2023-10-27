@@ -11,11 +11,11 @@
   },
   "devDependencies": {
     "@ndxbn/preset-jest": "0.2.4",
-    "@ndxbn/preset-typescript": "0.0.12",
-    "@types/jest": "26.0.24",
-    "@types/node": "18.17.15",
-    "jest": "26.6.3",
-    "ts-jest": "26.5.6",
+    "@ndxbn/tsc": "0.0.12",
+    "@types/jest": "29.5.6",
+    "@types/node": "20.8.9",
+    "jest": "29.7.0",
+    "ts-jest": "29.1.1",
     "typescript": "5.2.2"
   },
   "keywords": [],

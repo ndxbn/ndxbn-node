@@ -1,6 +1,6 @@
 {
-  "name": "@ndxbn/preset-typescript",
-  "version": "0.0.12",
+  "name": "@ndxbn/tsconfig",
+  "version": "0.0.20",
   "description": "My TypeScript compiler Preset",
   "main": "tsconfig.json",
   "keywords": [],
@@ -13,9 +13,14 @@
   "bugs": {
     "url": "https://github.com/ndxbn/ndxbn/issues"
   },
-  "homepage": "https://github.com/ndxbn/ndxbn/packages/preset-typescript#readme",
+  "homepage": "https://github.com/ndxbn/ndxbn/packages/tsc#readme",
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "f0e9b05984093a6025d40517d2c6872e34899b95"
+  "gitHead": "f0e9b05984093a6025d40517d2c6872e34899b95",
+  "devDependencies": {
+    "@tsconfig/node-lts": "18.12.5",
+    "@tsconfig/recommended": "1.0.3",
+    "@tsconfig/strictest": "2.0.2"
+  }
 }
