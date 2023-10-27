@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
       - run: npm cit
 
   publish-npm:
@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3.8.2
+        uses: actions/setup-node@v4.0.0
         with:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
