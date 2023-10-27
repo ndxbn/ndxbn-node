@@ -1,5 +1,5 @@
 {
-  "extends": "@ndxbn/tsc",
+  "extends": "@ndxbn/tsconfig",
   "compilerOptions": {
     "outDir": "./lib"
   },
