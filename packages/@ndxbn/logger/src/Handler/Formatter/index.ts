@@ -1,4 +1,4 @@
-export { IFormatter } from "./Formatter";
+export type { IFormatter } from "./Formatter";
 
 // concrete formatters
 export { RawFormatter } from "./RawFormatter";

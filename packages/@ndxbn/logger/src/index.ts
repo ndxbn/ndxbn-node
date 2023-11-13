@@ -1,8 +1,10 @@
 // Logger
-export { Logger, ILogger } from "./Logger";
+export {Logger} from "./Logger";
 export { LoggerBase } from "./LoggerBase";
-export { LogLevel } from "./constants";
 export { Context } from "./Context";
+
+export type { ILogger } from "./Logger";
+export type { LogLevel } from "./constants";
 
 // concrete Logger
 export { NullLogger } from "./NullLogger";
