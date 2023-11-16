@@ -14,7 +14,7 @@
   "devDependencies": {
     "@ndxbn/tsconfig": "0.0.20",
     "@types/mustache": "4.2.5",
-    "@types/node": "20.9.0",
+    "@types/node": "20.9.1",
     "typescript": "5.2.2"
   },
   "keywords": [],
