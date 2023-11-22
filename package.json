@@ -30,7 +30,7 @@
     "@ndxbn/preset-jest": "file:packages/@ndxbn/preset-jest",
     "@ndxbn/tsconfig": "file:packages/@ndxbn/tsconfig",
     "@types/config": "3.3.3",
-    "@types/jest": "29.5.9",
+    "@types/jest": "29.5.10",
     "config": "3.3.9",
     "husky": "8.0.3",
     "jest": "29.7.0",
