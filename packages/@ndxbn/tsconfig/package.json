@@ -19,8 +19,8 @@
   },
   "gitHead": "f0e9b05984093a6025d40517d2c6872e34899b95",
   "devDependencies": {
-    "@tsconfig/node-lts": "20.1.1",
-    "@tsconfig/recommended": "1.0.3",
-    "@tsconfig/strictest": "2.0.3"
+    "@tsconfig/node-lts": "20.1.2",
+    "@tsconfig/recommended": "1.0.4",
+    "@tsconfig/strictest": "2.0.4"
   }
 }
