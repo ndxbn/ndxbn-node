@@ -13,7 +13,7 @@
     "@ndxbn/preset-jest": "0.2.4",
     "@ndxbn/tsconfig": "0.0.20",
     "@types/node": "20.14.11",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "keywords": [],
   "license": "MIT",
