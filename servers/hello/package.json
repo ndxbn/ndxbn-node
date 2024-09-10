@@ -11,7 +11,7 @@
     "build-production": "tsc -p tsconfig.production.json"
   },
   "dependencies": {
-    "express": "4.19.2"
+    "express": "4.20.0"
   },
   "devDependencies": {
     "@ndxbn/preset-jest": "0.2.4",
