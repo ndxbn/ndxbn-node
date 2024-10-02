@@ -23,7 +23,7 @@ COPY ["package.json", "package-lock.json", "/home/app/"]
 RUN npm ci --ignore-scripts
 
 # complete docker image
-FROM node:lts-alpine
+FROM node:20.15.1-alpine3.20
 ENV APP_DIR=/app
 # make user and home dir
 RUN addgroup -S -g 1001 ndxbn && \
