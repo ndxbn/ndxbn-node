@@ -1,12 +1,12 @@
 version: "3"
 services:
   redis:
-    image: "redis:alpine"
+    image: "redis:alpine@sha256:de13e74e14b98eb96bdf886791ae47686c3c5d29f9d5f85ea55206843e3fce26"
     restart: always
     ports:
       - 6379:6379
   mysql:
-    image: "mysql"
+    image: "mysql@sha256:fd8d1b4e287c49e1e35eb5a103f337111947662130eb8a3e6c3e823813f47f7d"
     restart: always
     ports:
       - 3306:3306
@@ -16,7 +16,7 @@ services:
       MYSQL_PASSWORD: secretKey
       MYSQL_ROOT_PASSWORD: secretKey
   postgres:
-    image: "postgres:alpine"
+    image: "postgres:alpine@sha256:14195b0729fce792f47ae3c3704d6fd04305826d57af3b01d5b4d004667df174"
     restart: always
     ports:
       - 5432:5432
@@ -25,7 +25,7 @@ services:
       POSTGRES_USER: ndxbn
       POSTGRES_PASSWORD: secretKey
   mongo:
-    image: "mongo"
+    image: "mongo@sha256:9342a9279a9841fc5f8192e49dcaaf9404e6bb3a90e8cf134eb96074830dd448"
     restart: always
     ports:
       - 27017:27017
@@ -33,7 +33,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: ndxbn
       MONGO_INITDB_ROOT_PASSWORD: secretKey
   couchdb:
-    image: "couchdb"
+    image: "couchdb@sha256:247167ba7fcaa62b93afa9b03214f5b3aa1fe596f4852c84027ccff50c714310"
     restart: always
     ports:
       - 5984:5984
@@ -41,14 +41,14 @@ services:
       COUCHDB_USER: ndxbn
       COUCHDB_PASSWORD: secretKey
   neo4j:
-    image: "neo4j"
+    image: "neo4j@sha256:2e7e4eea5bc1eec581a3097c018dfeb3747f3638e67a963c10554825c31c1425"
     restart: always
     ports:
       - 7474:7474
       - 7687:7687
     # neo4j default user/password is neo4j/neo4j
   rabbitmq:
-    image: "rabbitmq:management-alpine"
+    image: "rabbitmq:management-alpine@sha256:2caa2f2d6ae060624231c8d48b4b1ae6ed8799f4bd709f993ad97a15e3f1cd39"
     restart: always
     ports:
       - 5672:5672
@@ -57,7 +57,7 @@ services:
       RABBITMQ_DEFAULT_USER: ndxbn
       RABBITMQ_DEFAULT_PASS: secretKey
   elasticsearch:
-    image: "elasticsearch:8.15.3"
+    image: "elasticsearch:8.15.3@sha256:54468761d3c815759843c1bdde088604c13ac0e45c626750c0a9bd0a43c0da3e"
     restart: always
     ports:
       - 9200:9200
@@ -65,7 +65,7 @@ services:
     environment:
       discovery.type: single-node
   zookeeper:
-    image: "zookeeper"
+    image: "zookeeper@sha256:f8e221218579ddbf9788bf31f47e05c0d59017a0a685f06310e2725da1c02812"
     restart: always
     ports:
       - 2181:2181
@@ -73,13 +73,13 @@ services:
       - ZOO_STANDALONE_ENABLED=true
       - ZOO_SKIP_ACL=yes
   mialhog:
-    image: "mailhog/mailhog"
+    image: "mailhog/mailhog@sha256:8d76a3d4ffa32a3661311944007a415332c4bb855657f4f6c57996405c009bea"
     restart: always
     ports:
       - 1025:1025
       - 8025:8025
   minio:
-    image: "minio/minio"
+    image: "minio/minio@sha256:9535594ad4122b7a78c6632788a989b96d9199b483d3bd71a5ceae73a922cdfa"
     restart: always
     ports:
       - 9000:9000
@@ -91,7 +91,7 @@ services:
       - server
       - /export
   plantuml:
-    image: "plantuml/plantuml-server"
+    image: "plantuml/plantuml-server@sha256:cd62e975a7830f2804535b20a3dd2439dd9df4e377dc00bc335c52cfd89f963f"
     restart: always
     ports:
       - 18000:8000
