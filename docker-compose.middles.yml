@@ -65,7 +65,7 @@ services:
     environment:
       discovery.type: single-node
   zookeeper:
-    image: "zookeeper@sha256:8dcdc12bc8d7cef813a01515d2f775db4d14b426963ad844045d4f27f2d63d35"
+    image: "zookeeper@sha256:bb707c8a03d1850b1dea67980c5f5eeb65a24c4dfd992e2e27fb7cad24860a16"
     restart: always
     ports:
       - 2181:2181
