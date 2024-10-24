@@ -1,18 +1,3 @@
 {
-  "extends": [
-    "config:js-lib",
-    ":disableDependencyDashboard",
-    ":automergeMinor",
-    ":rebaseStalePrs",
-    ":respectLatest",
-    ":prHourlyLimitNone",
-    ":prConcurrentLimitNone",
-    "group:linters",
-    "group:allNonMajor",
-    "preview:dockerVersions",
-    "preview:dockerCompose"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true
-  }
+  "extends": ["github>ndxbn/renovate-config"]
 }
