@@ -25,7 +25,7 @@ services:
       POSTGRES_USER: ndxbn
       POSTGRES_PASSWORD: secretKey
   mongo:
-    image: "mongo@sha256:9342a9279a9841fc5f8192e49dcaaf9404e6bb3a90e8cf134eb96074830dd448"
+    image: "mongo@sha256:3984cf5a234e525253619060fcbff12449db0597d62a6d4e18991a18f2365c36"
     restart: always
     ports:
       - 27017:27017
