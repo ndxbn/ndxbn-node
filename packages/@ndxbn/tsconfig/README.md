@@ -1,12 +1,2 @@
+moved to [ndxbn-tokyo/tsconfig](https://github.com/ndxbn-tokyo/tsconfig).
 
-install:
-
-```shell
-npm install --save-dev @ndxbn/tsconfig
-```
-
-add your `tsconfig.json`:
-
-```shell
-"extends": ["@ndxbn/tsconfig"]
-```
