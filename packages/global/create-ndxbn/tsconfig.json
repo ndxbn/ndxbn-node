@@ -1,7 +1,0 @@
-{
-  "extends": "@ndxbn/tsconfig",
-  "compilerOptions": {
-    "outDir": "./lib"
-  },
-  "include": ["src/index.ts", "src/cli.ts"]
-}
