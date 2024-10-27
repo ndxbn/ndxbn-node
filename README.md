@@ -1,22 +1,18 @@
 # ndxbn's main mono repository
 
-## Requirements
+Some packages are moved to [ndxbn-tokyo](https://github.com/).
+Each other packages are DEPRECATED.
 
-- [Node.js LTS](https://nodejs.org/)
-- [Docker](https://www.docker.com/)
+moved
 
-## Bootstrapping
+- [`create-ndxbn`](./packages/global/create-ndxbn)
+- [`@ndxbn/create`](./packages/@ndxbn/create)
+- [`@ndxbn/tsconfig](./packages/@ndxbn/tsconfig)
 
-```bash
-git clone git@github.com:ndxbn/ndxbn.git
-cd ndxbn
-npm ci
+deprecated
 
-git config commit.template .gitcommit.txt
-
-docker-compose up -f vagrant/docker-compose.yml
-```
-
-## Workflow
-
-[GitHub Flow](https://guides.github.com/introduction/flow/)
+- [`@ndxbn/hello`](./servers/hello)
+- [`@ndxbn/create-server`](./packages/@ndxbn/create-server)
+- [`@ndxbn/logger`](./packages/@ndxbn/logger)
+- [`@ndxbn/preset-jest`](./packages/@ndxbn/preset-jest)
+- [`@ndxbn/preset-jest`](./packages/@ndxbn/preset-jest)
